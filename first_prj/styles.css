@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    height: 50px;
+    width:100%;
+    background-size: cover;
+    background-image: url(loggo.png);
+}
+
+.border{
+     border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 700px;
+    border-radius: 3px;
+}
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(227, 134, 12);
+    color: black;
+}
+
+span{
+    font-size: 0.75rem;
+}
+.second-nav{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+.cart i{
+    font-size: 32px;
+}
+
+/* pannell*/
+
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.opt p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.opt{
+    width: 75%;
+    font-weight: 0.75rem;
+}
+
+.deals{
+    font-weight: 0.85rem;
+}
+
+/* hero - section*/
+
+.hero-section{
+    background-image: url(main.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-mess{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-mess a{
+    color: blue;
+}
+
+/* shop section */
+
+.shop-section{
+    display: flex;
+    background-color: rgb(113, 214, 120);
+    justify-content: space-evenly;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+}
+
+.box-image{
+    height: 300px;
+    background-size:cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contant{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.contant p{
+    color: green;
+}
+
+
+/* footer*/
+footer{
+    margin-top: 15px;
+}
+.foot-pannel1{
+    background-color: #37475a;
+    color:white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-pannel2{
+    padding-top: 15px;
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul p{
+font-weight: 700;
+}
+
+
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height: 50px;
+    width:100%;
+    background-size: cover;
+    background-image: url(loggo.png);
+    width: 100px;;
+}
+
+.foot-pannel4{
+    background-color: #0f1111;
+    color: white;
+    height: 70px;
+}
+
+.pages{
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.copyright{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.nav-add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
